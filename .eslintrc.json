@@ -1,7 +1,7 @@
 {
 	"extends": ["eslint:recommended", "next", "prettier"],
 	"rules": {
-		"no-unused-vars": "error",
-		"func-style": ["error", "expression"]
+		"no-unused-vars": "error", // erorr muncul jika ada sebuah variable yg di deklarasikan tapi tidak digunakan
+		"func-style": ["error", "expression"] // error akan muncul jika menggunakan function normal, untuk default wajib menggunakan arrow function
 	}
 }
