@@ -2,7 +2,6 @@
 	"extends": ["eslint:recommended", "next", "prettier"],
 	"rules": {
 		"no-unused-vars": "error",
-		"arrow-body-style": ["error", "always"],
-		"func-style": { "allowArrowFunctions": true }
+		"func-style": ["error", "expression"]
 	}
 }
