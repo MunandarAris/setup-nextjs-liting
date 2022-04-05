@@ -3,6 +3,6 @@
 	"rules": {
 		"no-unused-vars": "error",
 		"arrow-body-style": ["error", "always"],
-		"allowArrowFunctions": true
+		"func-style": { "allowArrowFunctions": true }
 	}
 }
