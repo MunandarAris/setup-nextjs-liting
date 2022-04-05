@@ -1,7 +1,8 @@
 import React from 'react'
 
 export default function Home() {
-	function data() {}
+	const data = () => {}
+
 	return (
 		<div>
 			<h1>Selamat Datang !!!!! {data()}</h1>
